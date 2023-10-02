@@ -7,7 +7,7 @@ import asyncio
 
 from .. import loader
 
-logger = logging.getLogger(name)
+logger = logging.getLogger(__name__)
 
 @loader.tds
 class PingLoverMod(loader.Module):
